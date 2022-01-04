@@ -12,6 +12,6 @@ scheduled:
 spring:
   datasource:
     driver: org.postgresql.Driver
-    url: jdbc:postgresql://ec2-54-204-28-187.compute-1.amazonaws.com:5432/d8vq1l40in95d6
+    url: jdbc:postgresql://localhost:5432/postgres
     username: mlxvedehmtkoas
     password: 60859298553064c5dce902005c0bee6ad5cfeeb0cf366c5c1c97dd0641fbce1a
