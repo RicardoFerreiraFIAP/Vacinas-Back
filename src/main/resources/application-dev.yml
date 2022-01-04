@@ -4,7 +4,7 @@ info:
     description: Vacinas
 
 server:
-  port: 80
+  port: 8090
 
 scheduled:
   cron: 0 0 * * * *
@@ -13,5 +13,5 @@ spring:
   datasource:
     driver: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/postgres
-    username: mlxvedehmtkoas
-    password: 60859298553064c5dce902005c0bee6ad5cfeeb0cf366c5c1c97dd0641fbce1a
+    username: postgres
+    password: postgres
